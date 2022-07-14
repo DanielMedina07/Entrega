@@ -5,9 +5,9 @@
         font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.list-warning{
+.btn-list{
+        @extend .li;
         list-style-type: none;
         text-decoration: none;
         font-size: 25px;
-        @extend .li;
 }
