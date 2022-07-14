@@ -1,6 +1,5 @@
 
 header{
-    background-color: black;
     & h1{
         color: aqua;
         font-size: 60px;
@@ -28,14 +27,6 @@ header{
         transform: scale(1);
         }
     }
-    & li{
-        list-style-type: none;
-        text-decoration: none;
-        font-size: 25px;
-        display: inline-block;
-        margin-top: 60px;
-        padding: 30px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
     & a{
         color: aqua;
     }
@@ -61,6 +52,6 @@ header{
 
 
 
-}
+
 
 
