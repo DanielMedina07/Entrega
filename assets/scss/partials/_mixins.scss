@@ -1,0 +1,10 @@
+@mixin primary( $color , $background-color, $font-size) {
+    width: 10px;
+    height: 20px;
+    
+}
+
+
+.primary-btn{
+    @include primary(aqua, black, 60px)
+}
