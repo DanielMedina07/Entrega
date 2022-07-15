@@ -1,0 +1,14 @@
+
+.li {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.list {
+    @extend .li;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+}
